@@ -2,3 +2,21 @@
   font-family: sans-serif;
   text-align: center;
 }
+
+button {
+  height: 30px;
+  width: 100px;
+  color: white;
+  background-color: rgb(192, 93, 58);
+  padding: 5px;
+  margin: 10px;
+  border:none;
+}
+
+.displayDiv {
+  width: 100%;
+  height: 50px;
+  color: white;
+  padding-top: 20px;
+  background-color: rgb(74, 158, 151);
+}

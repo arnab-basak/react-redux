@@ -1,11 +1,21 @@
-import React from "react";
+import React, {Component} from "react";
 import "./styles.css";
+// import { reducerF} from './reducer';
+// import { createStore } from 'redux';
 
-export default function App() {
-  return (
-    <div className="App">
-      <h1>Hello CodeSandbox</h1>
-      <h2>Start editing to see some magic happen!</h2>
-    </div>
-  );
+class App extends Component {
+  // store = createStore(reducerF);
+  render() {
+    return (
+      <div className="App">
+        <button>Increment</button>
+        <button>Decrement</button>
+        <div className="displayDiv">
+          <span>Counter:</span>
+          <span>2</span>
+        </div>
+      </div>
+    );
+  }
 }
+export default App;
